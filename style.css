@@ -1,0 +1,986 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+header{
+
+  position: relative;
+  
+}
+
+.header-left{
+  margin-left: 90px;
+
+  
+  width: 540px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  position: relative;
+
+
+
+}
+
+
+
+
+.logo img{
+  width: 40px;
+}
+.header-left p{
+  color: #757575;
+ 
+  cursor: pointer;
+  
+}
+
+.home:not(:hover) {
+  color: #00754a;
+  text-decoration: underline;
+}
+
+.header-right{
+  
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 140px;
+  top: 10px;
+   width: 438px;
+}
+
+.search-icon,
+.searchbar input{
+  box-shadow: 5px 5px
+  10px rgba(222, 222, 222, 0.686);
+
+}
+
+.search-icon{
+  margin-right: -110px;
+  padding-top: 3px;
+  border-right: none;
+
+
+  
+ 
+
+}
+.searchbar input{
+ height: 25px;
+ border:none ;
+border-left: none;
+
+
+}
+
+
+
+
+.account-icon img{
+  width: 30px;
+  object-fit: cover;
+  align-content: center;
+}
+
+
+
+
+.know-more{
+  background-color:rgb(30, 57, 50) ;
+  height: 80px;
+ position: relative;
+  
+ }
+
+.know-more button{
+ 
+  background-color:rgb(30, 57, 50) ;
+  border-color: white;
+  color: white;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 22px;
+  position: absolute;
+  right: 150px;
+  bottom: 23px;
+ }
+
+
+ .banner-icon img{
+  width: 100px;
+ }
+
+ .banner-section{
+  display: flex;
+   height: 200px;
+  border-radius: 10px;
+  margin: 40px 120px 90px 120px;
+  background-color: hsl(172.44, 88.24%, 30.0%);
+  cursor: pointer;
+  position: relative;
+  
+ }
+ .tooltip img,
+ .tooltip-right img{
+   width: 70px;
+   
+  
+ }
+ 
+ .tooltip{
+   position: absolute;
+   bottom: 50px;
+   left: -36px;
+   
+ }
+
+ .tooltip1{
+  position: absolute;
+  bottom: 50px;
+  left: 363px;
+  opacity: 0.5;
+  
+}
+ .tooltip-right{
+  position: absolute;
+  bottom: 50px;
+  right: -36px;
+  opacity: 0.7;
+  
+}
+ 
+ .heading,
+ .name,
+ .description {
+margin-top: 0;
+margin-bottom: 0;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-weight: bolder;
+}
+ .info{
+ width: 96%;
+ display: flex;
+ flex-direction: column;
+ justify-content:space-around ;
+ margin-left: 60px;
+ padding-top: 20px;
+ }
+
+.description{
+  margin-bottom: 66px;
+  margin-top: 10px;
+}
+
+.description,
+.heading{
+  font-size: 13px;
+}
+
+.name{
+  font-size:20px ;
+}
+
+.banner-button button{
+  
+  background-color: white;
+  border: none;
+  border-radius: 22px;
+  width: 170px;
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.banner-button{
+  align-content: end;
+}
+
+
+
+
+
+
+.bestseller img ,
+.drinks img,
+.food img,
+.merchandise img,
+.coffeeathome img,
+.readytoeat img{
+  height: 108px;
+  width: 108px;
+  border-radius: 50%;
+ 
+  
+}
+
+.content-upper{
+ 
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 208px;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+  
+}
+.upper-heading{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #1e3932;
+  margin-left: 110px;
+  font-size: 21px;
+  padding-left: .35em;
+  margin-bottom: -1px;
+}
+.content-upper p{
+  
+  font-weight: 600;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.heading-container{
+  display: flex;
+ 
+  justify-content: space-between;
+  position: relative;
+  
+  
+
+}
+.middle-heading{
+  color: rgb(30, 57, 50);
+  font-weight: bold;
+  font-size: 22px;
+  position: absolute;
+  left: 140px;
+  top: 20px;
+ 
+  
+}
+
+.menu-button{
+  position: absolute;
+  right: 120px;
+  top: 20px;
+  color: #00754a;
+  font-size: .8rem;
+  cursor: pointer;
+}
+.content-middle{
+ 
+  background-color:rgb(237, 235, 233) ; 
+  display: flex;
+  padding-left: 70px;
+ 
+ }
+ .tile1{
+  margin-left: 80px;
+ }
+.tile1,.tile2,.tile3{
+  background-color: rgb(255, 255, 255);
+  
+ display: flex;
+  align-content: center;
+  height: 150px;
+  width: 400px;
+  margin-top: 70px ;
+  margin-bottom: 50px;
+  margin-right: 15px;
+
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.placeholder-icon img{
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  margin: 10px 20px 7px 20px;
+  border-radius: 8px;
+ 
+}
+
+.veg-icon img{
+  margin-top: 10px;
+  width: 13px;
+}
+
+.speciality-details p{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.speciality-details span{
+  font-size: 12px;
+}
+
+.speciality-details{
+  display: flex;
+  flex-direction: column;
+  
+}
+.placeholder-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.placeholder-icon p{
+  font-size: 10px;
+  font-weight: bold;
+
+}
+.add-item-button {
+  display: flex;
+  position: relative;
+  
+
+}
+.add-item-button button{
+  border: none;
+  border-radius: 22px;
+  background-color: rgb(0, 117, 74);
+  color: white;
+  cursor: pointer;
+  width: 86px;
+  height: 22px;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.241);
+
+ 
+}
+.white-space{
+  background-color: white;
+  height: 40px;
+}
+.lower-container{
+  background-color: rgb(237, 235, 233);
+}
+
+.lower-heading{
+  padding-left: 83px;
+  font-weight: 500;
+  font-size:24px ;
+  color: rgb(30, 57, 50);
+  padding-top: 30px;
+
+}
+
+
+.content-lower{
+  border: solid 1px;
+  background-image: url(/Images/backgroundimage.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin: 50px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
+
+
+
+.content-lower::after {
+    transition: opacity 1s ease;
+}
+.content-lowe:hover::after {
+    opacity: 0.5;
+}
+
+
+
+.coffee-culture-button ,
+.content-lower p,
+.learn-more-button {
+  margin-left:50px ;
+}
+.coffee-culture-button button{
+  color: rgb(0, 153, 102);
+  background-color: rgba(255, 255, 255, 0.652);
+  border: none;
+  border-radius: 4px;
+  width: 99px;
+  font-size: 10px;
+  
+}
+.coffee-culture-button{
+  margin-top: -20px;
+}
+
+.brewing{
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: -80px;
+  color: white;
+}
+
+.ad{
+  font-size: 14px;
+font-weight: 400;
+color: white;
+margin-bottom: -70px;
+}
+
+.learn-more-button button{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 12px 50px 12px 50px;
+  border-radius: 26px;
+  margin-bottom: -10px;
+
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(14, 56, 44);
+  color: white;
+
+}
+
+
+
+.logo-footer,
+.about,
+.responsibility,
+.quicklinks,
+.socialmedia,
+.icon-class{
+margin-top: 140px;
+margin-left: 80px;
+cursor: pointer;
+
+}
+
+
+.logo-footer img{
+  width: 62px;
+  height: 62px;
+  
+ 
+}
+
+.first-line{
+  font-size: 1.35em;
+   font-family:Helvetica, sans-serif;
+ 
+}
+.extra-details{
+  background-color: rgb(14, 56, 44);
+}
+.extra-details-left{
+  
+  color: white;
+ display: flex;
+ justify-content: space-between;
+ width: 600px;
+ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 100px;
+}
+
+li{
+  float: left;
+  padding: 12px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+}
+
+
+.extra-details-right{
+  position: absolute;
+  right: 100px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.line-break{
+  background-color: rgb(14, 56, 44);
+ margin: 0;
+ padding-left: 110px;
+}
+
+.line-break {
+  color: white;
+}
+
+@media (max-width :700px) {
+
+  body{
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+  .header-left{
+    display: flex;
+    flex-direction: column;
+  
+    margin: auto;
+    
+   }
+   
+   .header-right{
+    padding-top: 220px;
+   margin: auto;
+  padding-left: 40%;
+    display: flex;
+    position: relative;
+   
+    }
+   
+  .account-icon{
+    margin-left: -230px;
+   }
+   .search-icon{
+    margin-right: -230px;
+   }
+   .know-more {
+    margin-top: 37px;
+   }
+  
+/* banner section */
+
+.banner-icon{
+ 
+ 
+  display: flex;
+  justify-content: center;
+  height: 200px;
+ }
+
+ .banner-section{
+  display: flex;
+ flex-direction: column;
+   height: auto;
+ 
+  margin: 40px 30px 90px 30px;
+  background-color: hsl(172.44, 88.24%, 30.0%);
+  cursor: pointer;
+  position: relative;
+  
+ }
+ .banner-button button{
+  
+  background-color: white;
+  border: none;
+  border-radius: 22px;
+  width: 170px;
+  height: 50px;
+
+}
+
+.banner-button{
+  margin: auto;
+}
+
+ .tooltip img,
+ .tooltip-right img{
+   width: 70px;
+   
+  
+ }
+ 
+ .tooltip{
+   position: absolute;
+   bottom: 50%;
+   left: -36px;
+   
+ }
+ .tooltip-right{
+  position: absolute;
+  bottom: 50%;
+  right: -36px;
+  opacity: 0.7;
+  
+}
+ /* upper-content */
+
+ .upper-heading{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #1e3932;
+  margin-left: 20%;
+  
+  display: flex;
+  font-size: 21px;
+  
+
+ 
+ 
+  
+}
+.content-upper{
+  
+display: flex;
+flex-wrap: wrap;
+
+
+margin-bottom: 140px;
+}
+.content-upper p{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* heading barista  */
+
+.heading-container{
+  display: flex;
+ 
+  justify-content: space-between;
+  position: relative;
+  
+  
+
+}
+.middle-heading{
+ 
+  left: 5%;
+  top: 130px;
+  
+ 
+  
+}
+
+.menu-button{
+  
+  right: 5%;
+  top: 130px;
+  
+}
+
+/* middle round tile */
+
+.content-middle{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 20%;
+ 
+ }
+ .tile1,.tile2,.tile3{
+  background-color: rgb(255, 255, 255);
+  
+ display: flex;
+  align-content: center;
+  margin: 15% ;
+
+}
+/* lower-heading */
+
+.lower-heading{
+  padding-left: 10%;
+  font-weight: 500;
+  font-size:24px ;
+  color: rgb(30, 57, 50);
+  padding-top: 30px;
+
+}
+footer{
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: self-start;
+
+}
+footer div{
+  
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+align-items: self-start;
+}
+
+ul p{
+display: contents;
+
+}
+.line-break{
+  
+ padding-left: 0;
+
+}
+}
+  
+
+                                        /* tablet */
+
+
+@media (min-width :700px) and (max-width: 1220px){
+  body{
+    width: 100%;
+    overflow-x: hidden; 
+}
+header{
+  display: flex;
+  
+  width: 100%;
+  position: relative;
+
+}
+  .header-left{
+    display: flex;
+    margin-left: 0;
+  
+    width: 70%;
+    
+   }
+
+   .header-right{
+    
+    width: 27%;
+    
+    display: flex;
+    
+    position: absolute;
+    right: 1%;
+   
+    }
+    
+  .account-icon{
+    margin-left: 0;
+   }
+   .search-icon{
+    margin-right: 0;
+   }
+   .know-more {
+    margin-top: 37px;
+   }
+  
+/* banner section */
+
+.banner-icon{
+ 
+ 
+  display: flex;
+  justify-content: center;
+  height: 200px;
+ }
+
+ .banner-section{
+  display: flex;
+ flex-direction: column;
+   height: auto;
+ 
+  margin: 40px 30px 90px 30px;
+  background-color: hsl(172.44, 88.24%, 30.0%);
+  cursor: pointer;
+  position: relative;
+  
+ }
+ .banner-button button{
+  
+  background-color: white;
+  border: none;
+  border-radius: 22px;
+  width: 170px;
+  height: 50px;
+
+}
+
+.banner-button{
+  margin: auto;
+}
+
+ .tooltip img,
+ .tooltip-right img{
+   width: 70px;
+   
+  
+ }
+ 
+ .tooltip{
+   position: absolute;
+   bottom: 50%;
+   left: -36px;
+   
+ }
+ .tooltip-right{
+  position: absolute;
+  bottom: 50%;
+  right: -36px;
+  opacity: 0.7;
+  
+}
+ /* upper-content */
+
+ .upper-heading{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #1e3932;
+  margin-left: 39%;
+  
+  display: flex;
+  font-size: 21px;
+  
+
+ 
+ 
+  
+}
+.content-upper{
+  
+display: flex;
+flex-wrap: wrap;
+
+}
+.content-upper p{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* heading barista  */
+
+.heading-container{
+  display: flex;
+ 
+  justify-content: space-between;
+  position: relative;
+  
+  
+
+}
+.middle-heading{
+ 
+  left: 0;
+  top: 115px;
+
+  border: solid 1px;
+ 
+  
+}
+
+.menu-button{
+  
+  right: 0;
+  top: 115px;
+   border: solid 1px;
+}
+
+/* middle round tile */
+
+.content-middle{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  padding-left:0;
+  margin-top: 14%;
+
+ 
+ 
+ }
+.tile1{
+  
+ margin-left: 20%;
+}
+.tile2,.tile3{
+
+ 
+ display: flex;
+
+  margin-right: 20%;
+  margin-left: 20%;
+  
+
+
+}
+/* lower-heading */
+
+.lower-heading{
+  padding-left: 10%;
+  font-weight: 500;
+  font-size:24px ;
+  color: rgb(30, 57, 50);
+  padding-top: 30px;
+ 
+
+}
+.learn-more-button{
+  margin-left: 30%;
+}
+footer{
+ display: flex;
+ flex-wrap: wrap;
+
+ 
+  
+ 
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+
+ul p{
+display: contents;
+
+}
+.line-break{
+  
+ padding-left: 0;
+
+}
+}
+
+/* @media screen (min-width:888px) and (min-width:1219){
+  .account-icon{
+    margin-left: -230px;
+   }
+   .search-icon{
+    margin-right: 0;
+   }
+   .know-more {
+    margin-top: 37px;
+   }
+} */
